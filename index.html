@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Daily Prophet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+      body {
+        background-color: #f1dab2;
+        font-family: "Caudex", serif;
+        padding: 20px;
+        color: #2c2c2c;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-weight: 700;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+
+      h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .header-hr {
+        height: 5px;
+        background-color: #2c2c2c;
+        margin: 20px 0;
+        border: none;
+        position: relative;
+        overflow: visible;
+      }
+
+      .header-hr::before,
+      .header-hr::after {
+        content: "✦ ❧ ✦";
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #2c2c2c;
+        background-color: #f1dab2;
+        padding: 0 10px;
+      }
+
+      .header-hr::before {
+        left: 20px;
+      }
+
+      .header-hr::after {
+        right: 20px;
+      }
+
+      .header-hr::after {
+        content: "✦ ☙ ✦";
+      }
+
+      .main-article {
+        display: flex;
+        margin-bottom: 20px;
+      }
+
+      .image-placeholder {
+        background-color: #ccc;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        flex-shrink: 0;
+      }
+
+      .columns {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+
+      .column {
+        width: 32%;
+        background-color: #f8e7c9;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+
+      .split-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .split-box {
+        background-color: #f8e7c9;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+
+      .dropcap {
+        float: left;
+        font-size: 60px;
+        line-height: 0.8;
+        font-weight: bold;
+        margin-right: 9px;
+      }
+
+      p {
+        text-align: justify;
+        line-height: 1.6;
+        margin-bottom: 10px;
+      }
+
+      .article-hr {
+        border: none;
+        height: 2px;
+        background-image: url("data:image/svg+xml,%3Csvg width='120' height='4' viewBox='0 0 120 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 2L120 2' stroke='%232c2c2c' stroke-width='0.5' stroke-dasharray='8 4'/%3E%3C/svg%3E");
+        background-repeat: repeat-x;
+        margin: 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <hr class="header-hr" />
+    <p style="text-align: center">The</p>
+    <h1>Daily Prophet</h1>
+    <hr class="header-hr" />
+
+    <div class="main-article">
+      <video autoplay loop muted style="width: 800px; margin-right: 20px;">
+        <source src="vids/breaking.mp4" type="video/mp4" />
+      </video>
+      <div>
+        <h2>
+          Hogwarts' Quidditch Stadium Collapses During Match vs. Slytherin
+        </h2>
+        <p>
+          <span class="dropcap">I</span>n a shocking turn of events during the
+          highly anticipated Quidditch match between Hogwarts and Slytherin,
+          the stadium itself was engulfed in chaos as the stands of Hogwarts'
+          Quidditch Stadium collapsed under the weight of frenzied spectators
+          and spellfire. The sudden and catastrophic failure of the
+          grandstands sent a wave of panic through the crowd, as enchanted
+          debris and dust obscured the once-celebratory pitch. The collapse
+          occurred just as Gryffindor and Slytherin players were locked in a
+          dramatic showdown, leaving fans and players alike in a state of
+          disbelief and horror. Amidst the wreckage, emergency response teams
+          rushed to aid the injured and restore order, while the magical
+          community reels from the shock of such a devastating accident,
+          raising urgent questions about the safety and integrity of magical
+          infrastructure.
+        </p>
+      </div>
+    </div>
+
+    <div class="columns">
+      <div class="column">
+        <video autoplay loop muted style="width: 100%;">
+          <source src="vids/mcgon.mp4" type="video/mp4" />
+        </video>
+        <h3>
+          Professor McGonagall Confirmed as Interim Headmaster of Hogwarts
+        </h3>
+        <p>
+          <span class="dropcap">P</span>rofessor Minerva McGonagall has been
+          officially confirmed as the Interim Headmaster of Hogwarts School of
+          Witchcraft and Wizardry following the recent resignation of her
+          predecessor. McGonagall, who has served as Deputy Headmistress and
+          Head of Gryffindor House, brings a wealth of experience and a deep
+          commitment to the school’s traditions and values. Her appointment was
+          announced in a statement by the Hogwarts Board of Governors, who
+          expressed confidence in her ability to lead the school during this
+          transitional period.
+          <br />
+          <br />
+
+          McGonagall’s appointment comes at a time of both excitement and
+          uncertainty within the Hogwarts community. Known for her stern yet
+          fair approach, McGonagall has been praised for her dedication to
+          maintaining academic excellence and student welfare. Her leadership
+          will be crucial in ensuring the smooth continuation of school
+          activities and addressing any immediate challenges that may arise in
+          the wake of the recent leadership change.
+          <br />
+          <br />
+
+          As Interim Headmaster, McGonagall faces the task of navigating
+          Hogwarts through this period of transition while maintaining the
+          high standards of education and discipline for which the school is
+          renowned. Her focus will be on reinforcing the school’s core
+          values, supporting both students and staff, and ensuring that the
+          upcoming school year proceeds without disruption. Her extensive
+          experience as a professor and administrator positions her well to
+          handle these responsibilities.
+          <br />
+          <br />
+
+          The Hogwarts community has responded positively to the
+          announcement, with many expressing their support for McGonagall’s new
+          role. Her strong leadership qualities and deep understanding of
+          Hogwarts’ unique culture are seen as assets that will help stabilize
+          the school during this time. The Board of Governors has assured
+          students, parents, and staff that McGonagall’s interim leadership
+          will provide the stability and continuity needed until a permanent
+          headmaster is appointed.
+          <br />
+          <br />
+        </p>
+      </div>
+      <div class="column">
+        <video autoplay loop muted style="width: 100%;">
+          <source src="vids/gringott.mp4" type="video/mp4" />
+        </video>
+        <h3>Gringotts Wizarding Bank Reports Large Scale Theft of Galleons</h3>
+        <p>
+          <span class="dropcap">G</span>ringotts Wizarding Bank has reported a
+          major theft of Galleons from its vaults, marking one of the most
+          significant heists in recent history. Discovered during a routine
+          audit, the theft involved Vault 713, known for its high security
+          and valuable contents. The initial audit revealed a massive
+          shortfall, prompting immediate concern among senior bank officials.
+          <br />
+          <br />
+          Forensic analysis reveals a sophisticated breach involving advanced
+          dark magic. The vault’s security measures, including a dragon guard
+          and enchantments, were bypassed using rare and potent magic.
+          Evidence suggests the use of powerful transfiguration spells and
+          ancient curses. Additionally, magical residue and intricate runes
+          found at the scene point to highly skilled dark wizards or witches.
+          <br />
+          <br />
+          Witness testimonies and security footage, which has been
+          mysteriously corrupted, suggest unusual activity and tampering in
+          the days before the theft. Security flaws include a temporary
+          deactivation of anti-apparation wards, which might have been
+          exploited by the thieves. The use of memory charms on some staff
+          members has further complicated the investigation.
+          <br />
+          <br />
+          The theft has significant implications for Gringotts and the
+          wizarding community, affecting financial stability and trust in the
+          bank's security. Gringotts has suspended high-value transactions
+          and is working with the Department of Magical Law Enforcement to
+          recover the stolen assets and prevent future breaches. A substantial
+          reward is being offered for information leading to the
+          apprehension of the culprits.
+          <br /> <br />`
+        </p>
+      </div>
+      <div class="column">
+        <div style="margin-bottom: 20px;">
+          <h3>
+            Hogwarts' Ancient Runes Professor Uncovered Hidden Hieroglyphics
+          </h3>
+          <p>
+            <span class="dropcap">I</span>n a stunning revelation, Professor
+            Bathilda Ashworth, Hogwarts' renowned Ancient Runes expert, has
+            uncovered hidden hieroglyphics within the castle's oldest wing,
+            believed to date back to the Founders' era. The cryptic symbols,
+            concealed by powerful enchantments, were discovered near the Chamber
+            of Secrets during routine ward maintenance. Early interpretations
+            suggest they may unlock long-lost magics of Hogwarts' original
+            architects. Professor Ashworth, collaborating with the Department of
+            Mysteries, hinted that this find could reveal a hidden chapter of
+            the school's history, possibly linked to Slytherin's Locket or
+            ancient defensive spells. The magical community eagerly awaits
+            further developments as this discovery could reshape our
+            understanding of Hogwarts.
+          </p>
+        </div>
+        <hr>
+        <div>
+          <h3>Weasley Twins Open New Burrito Bar in Hogsmeade</h3>
+          <p>
+            <span class="dropcap">I</span>n a move that's spicing up the magical
+            culinary scene, Fred and George Weasley have opened a new burrito
+            bar in Hogsmeade, cheekily named "Weasley's Wraps." Known for their
+            mischievous flair and innovative products at Weasleys' Wizard
+            Wheezes, the twins are now bringing their creativity to the world of
+            food. The menu features a magical twist on classic burritos, with
+            options like "Fiery Dragon Breath" and "Exploding Cauldron," each
+            crafted with a blend of enchanted ingredients. Early reviews from
+            students and villagers alike rave about the unique flavors and
+            lively atmosphere, making Weasley's Wraps a must-visit spot for
+            anyone in the mood for a magical meal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
